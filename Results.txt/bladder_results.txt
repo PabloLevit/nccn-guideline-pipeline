@@ -1,0 +1,101 @@
+Q 1.1.1
+--------------------
+YES  
+- Within each category of disease, more refined methods to determine prognosis and guide management, based on molecular staging, are under development with the goal of optimizing each patient’s likelihood of cure and chanc… (MS-46)
+
+Q 1.1.2
+--------------------
+No stage/setting-specific recommendation found for NGS or molecular profiling.
+
+Q 1.2
+--------------------
+- 2A, IV, DDMVAC, 2B, BL, 2B, 25, 2B, 29, 2B, BL, DDMVAC, 2B, 2B, 2B, 2B, DDMVAC, BL, 2B, 2B, 2B, 33, BL, DDMVAC, 2B, 2B, OF, SYSTEMIC, THERAPY, BL (BL-G 4 of 7)
+- BL, OF, IV, 2B, 2B, FGFR3, 35, HER2, IHC, 36PLEASE, NOTE, MAY, NOT (BL-G
+4)
+- 2A, PRINCIPLES, OF, RISK, AND, BIOMARKERS (BL-I
+1)
+- PRINCIPLES, OF, RISK, AND, BIOMARKERS, BL, OF, AUA, BL, PLEASE, NOTE, MAY, NOT (BL-I
+2)
+- 2A, PRINCIPLES, OF, RISK, AND, BIOMARKERS (BL-I
+2)
+- FDA, FGFR3 (MS-36)
+
+Q 1.3
+--------------------
+PDL1 -
+MSI -
+TMB -
+- Pembrolizumab and berahyaluronidase alfa-pmph has different dosing and administration instructions compared to IV pembrolizumab.First-Line Systemic Therapy for Locally Advanced or Metastatic Disease (Stage IV) Preferred regimen • Enfortumab vedotin-ejfv15,16 and pembrolizumab (category 1)Other recommended regimens • Gemcitabine and cisplatin4 (category 1) followed by avelumab maintenance therapy (category 1)a,17 • Gemcitabine, cisplatin, and nivolumab (category 1) followed by nivolumab maintenance therapy18 (category 1) • DDMVAC with growth factor support2,10 (category 1) followed by avelumab maintenance therapy (category 1)a,17Useful in certain circumstances (cisplatin-ineligible) • Gemcitabine and carboplatin19 followed by avelumab maintenance therapy (category 1)a,17 • Pembrolizumab (for the treatment of patients with locally advanced or metastatic urothelial carcinoma who are not eligible for any platinum- containing chemotherapy)20 • Atezolizumab21 (only for patients whose tumors express PD-L1b or who are not eligible for any platinum-containing chemotherapy regardless of PD-L1 expression) (category 2B) a Maintenance therapy with avelumab only if there is no progression on first-line platinum-containing chemotherapy. (BL-G  
+2)
+- b Atezolizumab: SP142 assay, PD-L1–stained tumor-infiltrating immune cells covering ≥5% of the tumor area.PLEASE NOTE that use of this NCCN Content is governed by the End-User License Agreement, and you MAY NOT distribute this Content or use it with any artificial intelligence model or tool. (BL-G 4 of 7)
+- Enfortumab vedotin after PD-1 or PD-L1 inhibitors in cisplatin-ineligible patients with advanced urothelial carcinoma (EV 201): a multicentre, single-arm, phase 2 trial. (BL-G  
+ 6)
+- The Panel recommends evaluation of microsatellite instability-high (MSI-H) and/or mismatch repair (MMR) status. (BL-I
+3)
+- For patients with a programmed death -ligand 1 (PD-L1) expression level of 1% or more, DFS was 74.5% with nivolumab and 55.7% with placebo (HR, 0.55; 98.72% CI, 0.35– 0.85; P < .001). (MS-20)
+- 253 In May 2018, the FDA issued a safety alert for the use of first-line pembrolizumab and atezolizumab, which warned that early reviews of data from two clinical trials (KEYNOTE -361 and IMvigor130) showed decreased survival for patients receiving pembrolizum ab or atezolizumab as first -line monotherapy compared to those receiving cisplatin - or carboplatin- based therapy.254 Based on these data, the pembrolizumab prescribing information was initially amended to restrict first-line use to patients who either 1) are not eligible for cisplatin- containing chemotherapy and whose tumors express PD -L1 as measured by a combined posit ive score (CPS) of at least 10; or 2) are not eligible for any platinum -containing chemotherapy regardless of PD - L1 status.255 Subsequently, the first -line indication was further restricted to only patients who were not eligible for any platinum -containing chemotherapy, removing eligibility for first -line pembrolizumab from the PD-L1–high, platinum -eligible population.256 This amended indication was granted a full (regular) approval by the FDA. (MS-31)
+- Based on PD-L1 expression of less than 1% and 1% or greater, OS was 5.95 to 11.3 months, respectively. (MS-34)
+
+Q 2
+--------------------
+YES
+- However, to date, the Panel has concluded that there are insufficient data for ctDNA results to determine the course of surveillance or therapy after complete surgical resection.PRINCIPLES OF ALTERNATIVE RISK CLASSIFIERS AND BIOMARKERS BL-I 2 OF 3a See AUA Risk Stratification for Non–Muscle-Invasive Bladder Cancer definitions on BL-2.PLEASE NOTE that use of this NCCN Content is governed by the End-User License Agreement, and you MAY NOT distribute this Content or use it with any artificial intelligence model or tool. [BL-I
+2]
+- Additionally, there are no data to date that ctDNA clearance should be used to make decisions to alter or discontinue therapy. [BL-I
+3]
+
+Q 3.1
+--------------------
+NO
+
+Q 3.2
+--------------------
+No biomarkers mentioned for RNA testing.
+
+Q 4
+--------------------
+- Footnote gg modified: Molecular/genomic testing in a Clinical Laboratory Improvement Amendments (CLIA)-approved laboratory, including FGFR RGQ RT-PCR for FGFR3 genetic alterations and IHC for HER2 overexpression. [BL-A 3 of 5]
+
+Q 5
+--------------------
+No recommendation for MRD test.
+
+Q 6
+--------------------
+- See Principles of Systemic Therapy (BL-G 2 of 7, 3 of 7, and 4 of 7).
+
+WORKUP
+- PATHOLOGY
+  - Digital rectal examination (DRE)
+  - Cystoscopy (including bladder biopsy)
+  - TUR biopsies of prostate to include stroma
+  - Prostate-specific antigen (PSA)
+  - Needle biopsy if DRE is abnormal (in selected patients)
+  - Imaging of upper tract collecting system
+
+- ADDITIONAL WORKUP
+  - Ductal + acini
+  - Chest x-ray or CT ± abdomen/pelvis CT
+
+PRIMARY TREATMENT
+- Cystoprostatectomy ± urethrectomy or TURP and BCG
+- Stromal invasion
+- Mucosal prostatic urethra
+
+- METASTATIC
+  - Chest x-ray or CT/ abdomen/pelvis CT
+  - Cystoprostatectomy ± urethrectomy + neoadjuvant chemotherapy
+  - TURP and BCG
+  - Systemic therapy
+  - Consider adjuvant chemotherapy (if neoadjuvant not given)
+
+- LOCAL RECURRENCE
+  - Cystoprostatectomy ± urethrectomy
+  - Follow-up imaging
+
+PLEASE NOTE that use of this NCCN Content is governed by the End-User License Agreement, and you MAY NOT distribute this Content or use it with any artificial intelligence model or tool. (BL-G 1 of 7)
+
+Q 7
+--------------------
+No mention of chemosensitivity, resistance, or functional tests/assays.
+

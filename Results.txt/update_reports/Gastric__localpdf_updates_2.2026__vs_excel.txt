@@ -1,0 +1,273 @@
+==========================================================================================
+NCCN UPDATES VS EXCEL — UPDATE REPORT
+==========================================================================================
+Run time: 2026-02-04 11:30:41
+Tumor input: gastric
+NCCN matched title: gastric
+NCCN version: 2.2026
+PDF used: C:\Users\PABLO\OneDrive\Documentos\CANCER HOPE ASSIGNMENT\FINE - TUNING MODEL\projectsopenai - tests\PDF Guidelines\gastric.pdf
+Excel sheet matched: Gastric
+Question anchors found in Excel: 1.1.1, 1.1.2, 1.2, 1.3, 2., 3.1, 3.2, 4., 5., 6., 7.
+
+------------------------------------------------------------------------------------------
+GLOBAL REFERENCES EXTRACTED FROM UPDATES (prefix preserved)
+------------------------------------------------------------------------------------------
+- Gastric NCCN / Version 2.2026 / ABBR-1
+- Gastric NCCN / Version 2.2026 / DIS-A
+- Gastric NCCN / Version 2.2026 / FDG-PET
+- Gastric NCCN / Version 2.2026 / GAST-1
+- Gastric NCCN / Version 2.2026 / GAST-10
+- Gastric NCCN / Version 2.2026 / GAST-1A
+- Gastric NCCN / Version 2.2026 / GAST-2
+- Gastric NCCN / Version 2.2026 / GAST-2A
+- Gastric NCCN / Version 2.2026 / GAST-3
+- Gastric NCCN / Version 2.2026 / GAST-4
+- Gastric NCCN / Version 2.2026 / GAST-5
+- Gastric NCCN / Version 2.2026 / GAST-6
+- Gastric NCCN / Version 2.2026 / GAST-7
+- Gastric NCCN / Version 2.2026 / GAST-8
+- Gastric NCCN / Version 2.2026 / GAST-9
+- Gastric NCCN / Version 2.2026 / GAST-A
+- Gastric NCCN / Version 2.2026 / GAST-A, 2 of 4
+- Gastric NCCN / Version 2.2026 / GAST-A, 3
+of 4
+- Gastric NCCN / Version 2.2026 / GAST-A, 3 of 4
+- Gastric NCCN / Version 2.2026 / GAST-B
+- Gastric NCCN / Version 2.2026 / GAST-B, 1 of 7
+- Gastric NCCN / Version 2.2026 / GAST-B, 3 of 7
+- Gastric NCCN / Version 2.2026 / GAST-B, 5 of 7
+- Gastric NCCN / Version 2.2026 / GAST-B, 6 of 7
+- Gastric NCCN / Version 2.2026 / GAST-C
+- Gastric NCCN / Version 2.2026 / GAST-D
+- Gastric NCCN / Version 2.2026 / GAST-E
+- Gastric NCCN / Version 2.2026 / GAST-F
+- Gastric NCCN / Version 2.2026 / GAST-F, 1 of 9
+- Gastric NCCN / Version 2.2026 / GAST-F, 3 of 9
+- Gastric NCCN / Version 2.2026 / GAST-F, 4 of 9
+- Gastric NCCN / Version 2.2026 / GAST-F, 5 of 9
+- Gastric NCCN / Version 2.2026 / GAST-G
+- Gastric NCCN / Version 2.2026 / GAST-G, 4 of 5
+- Gastric NCCN / Version 2.2026 / GAST-H
+- Gastric NCCN / Version 2.2026 / GAST-I
+- Gastric NCCN / Version 2.2026 / GAST-I, 3 of 4
+- Gastric NCCN / Version 2.2026 / GAST-J
+- Gastric NCCN / Version 2.2026 / GAST-J, 2 of 3
+- Gastric NCCN / Version 2.2026 / MSI-H
+- Gastric NCCN / Version 2.2026 / PD-L1
+- Gastric NCCN / Version 2.2026 / ST-1
+
+==========================================================================================
+PER-QUESTION REVIEW
+==========================================================================================
+
+##########################################################################################
+1.1.1 — Is there a recommendation for Tissue NGS?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- YES
+- NGS should be considered
+- NGS offers the opportunity to assess numerous mutations simultaneously, along with other molecular events such as amplification, deletions, tumor mutational burden (TMB), and MSI status
+- Universal testing for microsatellite instability (MSI) by polymerase chain reaction (PCR)/next-generation sequencing (NGS) or mismatch repair (MMR) by immunohistochemistry (IHC) is recommended in all newly diagnosed patients
+- NGS testing through a Clinical Laboratory Improvement Amendments (CLIA)-approved laboratory may be considered later in the clinical course of patients with sufficient tumor tissue available for testing. Repeat biomarker testing may be considered at clinical or radiologic progression for patients with advanced/metastatic gastric adenocarcinoma
+
+EXCEL (existing references):
+- NCCN Gastric Cancer / Version 1.2026 / GAST-1
+- NCCN Gastric Cancer / Version 1.2026 / GAST-B 3 of 7
+
+UPDATES (lines matched by keywords):
+- Response Assessment, Additional Management (GAST-3) are category 2A unless otherwise Surgical Outcomes/Clinical Pathologic Findings for Patients Who Have Not Received Systemic Therapy indicated. (GAST-4)
+- indicated. (GAST-4) Surgical Outcomes/Clinical Pathologic Findings for Patients Who Have Received Systemic Therapy See NCCN Categories of Evidence and Consensus. (GAST-5)
+- Peritoneal Carcinoma As Only Disease (GAST-10) Principles of Endoscopic Staging and Therapy (GAST-A) Principles of Pathologic Review and Biomarker Testing (GAST-B) Principles of Surgery (GAST-C) Principles of Genetic Risk Assessment for Gastric Cancer (GAST-D)
+- • Neoadjuvant or perioperative ICI if tumor is microsatellite instability-high (MSI-H)/mismatch repair deficient (dMMR), Response Assessment 2nd bullet moved to 1st bullet: Chest/abdomen CT with oral and IV contrast (not required if FDG-PET/CT is done) • Footnote w added: CT with contrast should be considered if there were findings on the pre-treatment CT that merit more accurate anatomic assessment after treatment (such as small pulmonary nodules) or if post-treatment PET identified new findings that merit more accurate anatomic assessment. GAST-4
+- moved to 1st bullet: Chest/abdomen CT with oral and IV contrast (not required if FDG-PET/CT is done) • Footnote w added: CT with contrast should be considered if there were findings on the pre-treatment CT that merit more accurate anatomic assessment after treatment (such as small pulmonary nodules) or if post-treatment PET identified new findings that merit more accurate anatomic assessment. GAST-4 • R0 resection pathway, Tumor Classification revised:
+- histopathology to be well or moderately well differentiated, does not penetrate beyond the superficial submucosa (≤500 μm) , does not exhibit LVI, and has clear lateral and deep margins..." Principles of Pathologic Review and Biomarker Testing GAST-B 1 of 7 • Endoscopic mucosal resection (EMR) row, Analysis/Interpretation/Reporting column, 4th bullet revised: Depth of tumor submucosal invasion in μm, if
+-  Statement revised: "For patients with inoperable locally advanced, recurrent, or metastatic adenocarcinoma of the stomach for whom trastuzumab therapy is being considered, assessment for tumor HER2 (ERBB2) overexpression using IHC and fluorescence in situ hybridization (FISH) or other in situ hybridization (ISH) method is recommended. NGS offers the opportunity to assess numerous mutations simultaneously, along with other molecular events such as amplification, deletions, tumor mutational burden (TMB), and MSI status. IHC/ISH/targeted gene PCR is the preferred approach to assess biomarkers initially..."
+- therapy is being considered, assessment for tumor HER2 (ERBB2) overexpression using IHC and fluorescence in situ hybridization (FISH) or other in situ hybridization (ISH) method is recommended. NGS offers the opportunity to assess numerous mutations simultaneously, along with other molecular events such as amplification, deletions, tumor mutational burden (TMB), and MSI status. IHC/ISH/targeted gene PCR is the preferred approach to assess biomarkers initially..." • The HER2 gene ERBB2 was added in parentheses next to HER2 throughout the page.
+- Discussion Updates in Version 1.2026 of the NCCN Guidelines for Gastric Cancer include: Principles of Pathologic Review and Biomarker Testing (continued) GAST-B 5 of 7 • Microsatellite Instability (MSI) or Mismatch Repair (MMR) Testing
+- GAST-B 5 of 7 • Microsatellite Instability (MSI) or Mismatch Repair (MMR) Testing  1st bullet revised: "Universal testing for MSI by PCR or NGS, or MMR by IHC..." • PD-L1 Testing  1st bullet revised: "...PD-L1 testing should be performed only in CLIA-approved laboratories and a companion diagnostic test should be used to
+
+##########################################################################################
+1.1.2 — For which disease stage(s) does the guideline recommend NGS or molecular testing?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- YES
+- All newly diagnosed patients
+- Unresectable locally advanced or metastatic disease (if not done previously)
+
+EXCEL (existing references):
+- NCCN Gastric Cancer / Version 1.2026 / GAST-1
+- NCCN Gastric Cancer / Version 1.2026 / GAST-9
+
+UPDATES (lines matched by keywords):
+- Post-Treatment Assessment/Additional Management (GAST-6) NCCN Categories of Preference: Follow-up/Surveillance (GAST-7) All recommendations are considered Recurrence (GAST-8) appropriate.
+- Principles of Systemic Therapy (GAST-F) Principles of Radiation Therapy (GAST-G) Principles of Surveillance (GAST-H) Principles of Survivorship (GAST-I) Principles of Palliative Care/Best Supportive Care (GAST-J)
+- • Workup  11th bullet revised: HER2 (ERBB2) testing if advanced/metastatic disease is documented/suspected  Bullet added: Assess for distress.
+- Top pathway revised: cTis or cT1a or superficial cT1b  Locoregional disease; Medically fit, potentially resectable pathway, Final Stage revised: Deep cT1b GAST-2A • Footnote p added: EUS is not reliable for predicting superficial or deep submucosal invasion, so endoscopic resection is recommended to provide
+- Updates in Version 1.2026 of the NCCN Guidelines for Gastric Cancer include: GAST-3 • Neoadjuvant or perioperative ICI if tumor is microsatellite instability-high (MSI-H)/mismatch repair deficient (dMMR), Response Assessment 2nd bullet moved to 1st bullet: Chest/abdomen CT with oral and IV contrast (not required if FDG-PET/CT is done) • Footnote w added: CT with contrast should be considered if there were findings on the pre-treatment CT that merit more accurate anatomic assessment
+- • Footnote bb added: Superficial pT1b is defined as ≤500 μm invasion of submucosa and deep pT1b is defined as >500 μm invasion of submucosa. GAST-7 • Follow-up/Surveillance, middle pathway revised: p stage I (T1a,T1b, N0 treated by surgical resection or T1a treated by ER) GAST-9 • Pathway revised: Unresectable locally advanced , Locally recurrent or metastatic disease
+- • Follow-up/Surveillance, middle pathway revised: p stage I (T1a,T1b, N0 treated by surgical resection or T1a treated by ER) GAST-9 • Pathway revised: Unresectable locally advanced , Locally recurrent or metastatic disease Principles of Endoscopic Staging and Therapy GAST-A 2 of 4
+- GAST-A 3 of 4 • Treatment  1st bullet revised: "EMR or ESD of early-stage gastric cancer can be considered adequate therapy when the lesion is ≤2 cm in diameter, is shown on histopathology to be well or moderately well differentiated, does not penetrate beyond the superficial submucosa (≤500 μm) , does not exhibit LVI, and has clear lateral and deep margins..."
+- GAST-B 3 of 7 • Heading revised: Assessment of Overexpression or Amplification of HER2 (ERBB2) in Gastric Cancer  Statement revised: "For patients with inoperable locally advanced, recurrent, or metastatic adenocarcinoma of the stomach for whom trastuzumab therapy is being considered, assessment for tumor HER2 (ERBB2) overexpression using IHC and fluorescence in situ hybridization (FISH) or other in situ hybridization (ISH) method is recommended. NGS offers the opportunity to assess numerous mutations simultaneously, along with other
+-  Bullet revised: "The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood., hence a form of “liquid biopsy.” The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or the evolution of clones with altered treatment response profiles. Therefore, when limited tissue is available or for patients who have metastatic or advanced gastric cancer who are not able to undergo a traditional biopsy, testing using a validated NGS-based comprehensive genomic profiling assay multigene panel testing (MGPT) performed in a CLIA-approved laboratory may be considered…"
+
+##########################################################################################
+1.2 — What are the key biomarkers?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- Biomarker NCCN Category Disease Setting Clinical Context Tissue vs Blood
+- HER2 overexpression/amplification Category 2A Inoperable locally advanced, recurrent, or metastatic gastric adenocarcinoma Diagnostic and predictive: guides HER2-targeted therapy (e.g., trastuzumab) Tissue (FFPE) – IHC ± ISH/FISH. Blood not recommended
+- PD-L1 expression Category 2A Advanced or metastatic Predictive: guides immunotherapy eligibility Tissue (FFPE) – IHC
+- Microsatellite instability (MSI) Category 2A All newly diagnosed gastric cancer patients Predictive/prognostic: identifies candidates for immunotherapy Tissue (FFPE) – PCR, NGS, or IHC
+- CLDN18.2 Category 2A Advanced/metastatic Predictive: eligibility for CLDN18.2-targeted therapy Tissue (FFPE) – IHC
+- Tumor Mutational Burden (TMB) Category 2A Advanced/metastatic Predictive: immunotherapy response NGS on tumor tissue; ctDNA optional
+- NTRK gene fusion Category 2A Advanced/metastatic Predictive: eligibility for NTRK inhibitors Tissue (FFPE) – NGS (preferred)
+- RET gene fusion Category 2A Advanced/metastatic Predictive: eligibility for RET-targeted therapy Tissue (FFPE) – NGS (preferred)
+- BRAF V600E mutation Category 2A Advanced/metastatic Predictive: eligibility for BRAF inhibitors Tissue (FFPE) – PCR or NGS
+
+EXCEL (existing references):
+- NCCN Gastric Cancer / Version 1.2026 / GAST-B 6 OF 7
+
+UPDATES (lines matched by keywords):
+- Peritoneal Carcinoma As Only Disease (GAST-10) Principles of Endoscopic Staging and Therapy (GAST-A) Principles of Pathologic Review and Biomarker Testing (GAST-B) Principles of Surgery (GAST-C) Principles of Genetic Risk Assessment for Gastric Cancer (GAST-D)
+- 2nd sub-bullet added: For clinical node negative tumor  3rd sub-bullet added: For PD-L1 CPS <1 or TAP <1% (category 2B)  4th sub-bullet added: For diffuse type (category 2B)
+- • Workup  11th bullet revised: HER2 (ERBB2) testing if advanced/metastatic disease is documented/suspected  Bullet added: Assess for distress.
+- Bullet added: Assess for distress. GAST-1A • Footnote j added: Refer to the NCCN Distress Thermometer and Problem List, which includes social determinants of health. See NCCN Guidelines for Distress Management (DIS-A). GAST-2
+- Updates in Version 1.2026 of the NCCN Guidelines for Gastric Cancer include: GAST-3 • Neoadjuvant or perioperative ICI if tumor is microsatellite instability-high (MSI-H)/mismatch repair deficient (dMMR), Response Assessment 2nd bullet moved to 1st bullet: Chest/abdomen CT with oral and IV contrast (not required if FDG-PET/CT is done) • Footnote w added: CT with contrast should be considered if there were findings on the pre-treatment CT that merit more accurate anatomic assessment
+- • Follow-up/Surveillance, middle pathway revised: p stage I (T1a,T1b, N0 treated by surgical resection or T1a treated by ER) GAST-9 • Pathway revised: Unresectable locally advanced , Locally recurrent or metastatic disease Principles of Endoscopic Staging and Therapy GAST-A 2 of 4
+- GAST-A 3 of 4 • Treatment  1st bullet revised: "EMR or ESD of early-stage gastric cancer can be considered adequate therapy when the lesion is ≤2 cm in diameter, is shown on histopathology to be well or moderately well differentiated, does not penetrate beyond the superficial submucosa (≤500 μm) , does not exhibit LVI, and has clear lateral and deep margins..."
+- histopathology to be well or moderately well differentiated, does not penetrate beyond the superficial submucosa (≤500 μm) , does not exhibit LVI, and has clear lateral and deep margins..." Principles of Pathologic Review and Biomarker Testing GAST-B 1 of 7 • Endoscopic mucosal resection (EMR) row, Analysis/Interpretation/Reporting column, 4th bullet revised: Depth of tumor submucosal invasion in μm, if
+- Principles of Pathologic Review and Biomarker Testing GAST-B 1 of 7 • Endoscopic mucosal resection (EMR) row, Analysis/Interpretation/Reporting column, 4th bullet revised: Depth of tumor submucosal invasion in μm, if possible GAST-B 3 of 7
+- possible GAST-B 3 of 7 • Heading revised: Assessment of Overexpression or Amplification of HER2 (ERBB2) in Gastric Cancer  Statement revised: "For patients with inoperable locally advanced, recurrent, or metastatic adenocarcinoma of the stomach for whom trastuzumab therapy is being considered, assessment for tumor HER2 (ERBB2) overexpression using IHC and fluorescence in situ hybridization (FISH) or other
+
+##########################################################################################
+1.3 — Is there a recommendation for PDL1 / MSI / TMB test?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- PDL1 - PD-L1 testing is universally recommended at diagnosis for all gastric cancer patients who may receive PD-1/PD-L1 inhibitors and must be performed by IHC on FFPE tumor tissue in CLIA-approved laboratories using an approved companion diagnostic.
+- MSI - Universal testing for MSI or MMR deficiency is recommended for all newly diagnosed gastric cancer patients using PCR/NGS or IHC on FFPE tissue in CLIA-approved laboratories, with results reported as MSI-H or dMMR per CAP guidelines, enabling genetic counseling referral when appropriate and, when using NGS, allowing simultaneous assessment of MSI alongside other relevant molecular alterations.
+- TMB - TMB assessment may be performed as part of NGS testing in CLIA-approved laboratories, which can be considered later in the clinical course for patients with sufficient tumor tissue, allowing simultaneous evaluation of TMB alongside other genomic alterations such as MSI, amplifications, and deletions.
+
+EXCEL (existing references):
+- NCCN Gastric Cancer / Version 1.2026 / GAST-B 5 OF 7
+- NCCN Gastric Cancer / Version 1.2026 / GAST-B 6 OF 7
+
+UPDATES (lines matched by keywords):
+- 2nd sub-bullet added: For clinical node negative tumor  3rd sub-bullet added: For PD-L1 CPS <1 or TAP <1% (category 2B)  4th sub-bullet added: For diffuse type (category 2B)
+- Updates in Version 1.2026 of the NCCN Guidelines for Gastric Cancer include: GAST-3 • Neoadjuvant or perioperative ICI if tumor is microsatellite instability-high (MSI-H)/mismatch repair deficient (dMMR), Response Assessment 2nd bullet moved to 1st bullet: Chest/abdomen CT with oral and IV contrast (not required if FDG-PET/CT is done) • Footnote w added: CT with contrast should be considered if there were findings on the pre-treatment CT that merit more accurate anatomic assessment
+- therapy is being considered, assessment for tumor HER2 (ERBB2) overexpression using IHC and fluorescence in situ hybridization (FISH) or other in situ hybridization (ISH) method is recommended. NGS offers the opportunity to assess numerous mutations simultaneously, along with other molecular events such as amplification, deletions, tumor mutational burden (TMB), and MSI status. IHC/ISH/targeted gene PCR is the preferred approach to assess biomarkers initially..." • The HER2 gene ERBB2 was added in parentheses next to HER2 throughout the page.
+- Principles of Pathologic Review and Biomarker Testing (continued) GAST-B 5 of 7 • Microsatellite Instability (MSI) or Mismatch Repair (MMR) Testing  1st bullet revised: "Universal testing for MSI by PCR or NGS, or MMR by IHC..." • PD-L1 Testing
+- GAST-B 5 of 7 • Microsatellite Instability (MSI) or Mismatch Repair (MMR) Testing  1st bullet revised: "Universal testing for MSI by PCR or NGS, or MMR by IHC..." • PD-L1 Testing  1st bullet revised: "...PD-L1 testing should be performed only in CLIA-approved laboratories and a companion diagnostic test should be used to
+- • Microsatellite Instability (MSI) or Mismatch Repair (MMR) Testing  1st bullet revised: "Universal testing for MSI by PCR or NGS, or MMR by IHC..." • PD-L1 Testing  1st bullet revised: "...PD-L1 testing should be performed only in CLIA-approved laboratories and a companion diagnostic test should be used to analyze FFPE tumor tissue. "
+-  1st bullet revised: "Universal testing for MSI by PCR or NGS, or MMR by IHC..." • PD-L1 Testing  1st bullet revised: "...PD-L1 testing should be performed only in CLIA-approved laboratories and a companion diagnostic test should be used to analyze FFPE tumor tissue. "  2nd bullet, 2nd sub-bullet revised: CPS and tumor area positivity (TAP) score have high concordance and may be interchangeable. Either score could
+- analyze FFPE tumor tissue. "  2nd bullet, 2nd sub-bullet revised: CPS and tumor area positivity (TAP) score have high concordance and may be interchangeable. Either score could be used for identifying patients who are likely to benefit from tislelizumab-jsgr or durvalumab treatment. TAP score is the area occupied by PD-L1 positive tumor cells and immune cells (lymphocytes, macrophages, histiocytes, reticular dendritic cells, plasma cells, and neutrophils) divided by the tumor area, multiplied by 100%.
+- berahyaluronidase alfa-pmph has different dosing and administration instructions compared to IV pembrolizumab. GAST-F 3 of 9 • Neoadjuvant or Perioperative Immunotherapy, Useful in Certain Circumstances, MSI-H/dMMR Tumors, new regimen added: Dostarlimab-gxly for neoadjuvant therapy only • Chemoradiation for Unresectable Disease, Preferred, new regimen added: Fluoropyrimidine
+
+##########################################################################################
+2. — Is there a recommendation for ctDNA NGS?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- YES
+- Circulating tumor DNA (ctDNA) analysis from blood can identify genomic alterations, including mutations and gene fusions, in gastric cancer and may help detect targetable changes or evolving resistant clones
+- Multigene panel testing using ctDNA may be considered in CLIA-approved laboratories when tumor tissue is limited or biopsy is not feasible in advanced or metastatic disease, and negative results should be interpreted cautiously, as they do not exclude the presence of tumor.
+- Liquid biopsy using circulating tumor DNA (ctDNA) allows detection of genomic alterations and gene fusions in gastric cancer from blood, helping identify targetable mutations and tumor clonal evolution associated with treatment response or resistance.
+
+EXCEL (existing references):
+- NCCN Gastric Cancer / Version 1.2026 / GAST-B, Page 6, MS-15
+
+UPDATES (lines matched by keywords):
+-  2nd bullet, 2nd sub-bullet revised: CPS and tumor area positivity (TAP) score have high concordance and may be interchangeable. Either score could be used for identifying patients who are likely to benefit from tislelizumab-jsgr or durvalumab treatment. TAP score is the area occupied by PD-L1 positive tumor cells and immune cells (lymphocytes, macrophages, histiocytes, reticular dendritic cells, plasma cells, and neutrophils) divided by the tumor area, multiplied by 100%. GAST-B 6 of 7
+- clinical course of patients with sufficient tumor tissue available for testing. The list of targeted biomarkers includes:  Section on targeted biomarkers extensively revised • Heading revised: Liquid Biopsy Circulating tumor DNA (ctDNA)  Bullet revised: "The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood., hence a form of “liquid biopsy.” The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or
+-  Section on targeted biomarkers extensively revised • Heading revised: Liquid Biopsy Circulating tumor DNA (ctDNA)  Bullet revised: "The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood., hence a form of “liquid biopsy.” The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or the evolution of clones with altered treatment response profiles. Therefore, when limited tissue is available or for patients who have metastatic or
+- • Heading revised: Liquid Biopsy Circulating tumor DNA (ctDNA)  Bullet revised: "The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood., hence a form of “liquid biopsy.” The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or the evolution of clones with altered treatment response profiles. Therefore, when limited tissue is available or for patients who have metastatic or advanced gastric cancer who are not able to undergo a traditional biopsy, testing using a validated NGS-based comprehensive genomic profiling
+
+##########################################################################################
+3.1 — Is there a recommendation for RNA sequencing?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- NO
+
+EXCEL (existing references):
+(none)
+
+UPDATES (lines matched by keywords):
+- • Heading revised: Liquid Biopsy Circulating tumor DNA (ctDNA)  Bullet revised: "The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood., hence a form of “liquid biopsy.” The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or the evolution of clones with altered treatment response profiles. Therefore, when limited tissue is available or for patients who have metastatic or advanced gastric cancer who are not able to undergo a traditional biopsy, testing using a validated NGS-based comprehensive genomic profiling
+- ◊ HER2 overexpression positive ◊ HER2 overexpression negative  Useful in Certain Circumstances, regimens removed: Entrectinib, larotrectinib, or repotrectinib for NTRK gene fusion-positive tumors (category 2B) GAST-F 5 of 9 • Second-Line or Subsequent Therapy
+-  Preferred: Fam-trastuzumab deruxtecan-nxki for HER2 overexpression-positive adenocarcinoma changed from a category 2A to a category 1 recommendation.  Useful in Certain Circumstances, 1st regimen revised: Entrectinib, larotrectinib, or repotrectinib for NTRK 1/2/3 gene fusion-positive tumors • Footnote b added: Principles of Pathologic Review and Biomarker Testing (GAST-B). • Footnote i revised: Repotrectinib can be used in patients whose disease progressed on a prior NTRK-targeted therapy.
+
+##########################################################################################
+3.2 — What are the key biomarkers mentioned for the RNA testing?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- NO
+
+EXCEL (existing references):
+(none)
+
+UPDATES (lines matched by keywords):
+- Principles of Pathologic Review and Biomarker Testing GAST-B 1 of 7 • Endoscopic mucosal resection (EMR) row, Analysis/Interpretation/Reporting column, 4th bullet revised: Depth of tumor submucosal invasion in μm, if possible GAST-B 3 of 7
+-  2nd bullet, 2nd sub-bullet revised: CPS and tumor area positivity (TAP) score have high concordance and may be interchangeable. Either score could be used for identifying patients who are likely to benefit from tislelizumab-jsgr or durvalumab treatment. TAP score is the area occupied by PD-L1 positive tumor cells and immune cells (lymphocytes, macrophages, histiocytes, reticular dendritic cells, plasma cells, and neutrophils) divided by the tumor area, multiplied by 100%. GAST-B 6 of 7
+- • Heading revised: Liquid Biopsy Circulating tumor DNA (ctDNA)  Bullet revised: "The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood., hence a form of “liquid biopsy.” The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or the evolution of clones with altered treatment response profiles. Therefore, when limited tissue is available or for patients who have metastatic or advanced gastric cancer who are not able to undergo a traditional biopsy, testing using a validated NGS-based comprehensive genomic profiling
+- ◊ HER2 overexpression positive ◊ HER2 overexpression negative  Useful in Certain Circumstances, regimens removed: Entrectinib, larotrectinib, or repotrectinib for NTRK gene fusion-positive tumors (category 2B) GAST-F 5 of 9 • Second-Line or Subsequent Therapy
+-  Preferred: Fam-trastuzumab deruxtecan-nxki for HER2 overexpression-positive adenocarcinoma changed from a category 2A to a category 1 recommendation.  Useful in Certain Circumstances, 1st regimen revised: Entrectinib, larotrectinib, or repotrectinib for NTRK 1/2/3 gene fusion-positive tumors • Footnote b added: Principles of Pathologic Review and Biomarker Testing (GAST-B). • Footnote i revised: Repotrectinib can be used in patients whose disease progressed on a prior NTRK-targeted therapy.
+-  Useful in Certain Circumstances, 1st regimen revised: Entrectinib, larotrectinib, or repotrectinib for NTRK 1/2/3 gene fusion-positive tumors • Footnote b added: Principles of Pathologic Review and Biomarker Testing (GAST-B). • Footnote i revised: Repotrectinib can be used in patients whose disease progressed on a prior NTRK-targeted therapy. Principles of Radiation Therapy GAST-G 4 of 5
+
+##########################################################################################
+4. — Is there a recommendation to use a CLIA-approved assay/lab?
+STATUS: REVIEW
+##########################################################################################
+EXCEL (existing answer lines):
+- YES
+
+EXCEL (existing references):
+- NCCN Gastric Cancer / Version 2.2025 / GAST-B, Page 3-5-6
+
+UPDATES (lines matched by keywords):
+-  1st bullet revised: "Universal testing for MSI by PCR or NGS, or MMR by IHC..." • PD-L1 Testing  1st bullet revised: "...PD-L1 testing should be performed only in CLIA-approved laboratories and a companion diagnostic test should be used to analyze FFPE tumor tissue. "  2nd bullet, 2nd sub-bullet revised: CPS and tumor area positivity (TAP) score have high concordance and may be interchangeable. Either score could
+- • Heading revised: Next-Generation Sequencing (NGS) Biomarker Testing  At present, several targeted therapeutic agents (GAST-F) have been approved by the FDA for use in gastric cancer. IHC/ISH/targeted gene PCR is the preferred approach to assess biomarkers, initially. However, NGS testing through a CLIA-approved laboratory may be considered later in the clinical course of patients with sufficient tumor tissue available for testing. The list of targeted biomarkers includes:  Section on targeted biomarkers extensively revised
+- the evolution of clones with altered treatment response profiles. Therefore, when limited tissue is available or for patients who have metastatic or advanced gastric cancer who are not able to undergo a traditional biopsy, testing using a validated NGS-based comprehensive genomic profiling assay multigene panel testing (MGPT) performed in a CLIA-approved laboratory may be considered…" Principles of Systemic Therapy General
+
+##########################################################################################
+5. — Is there a recommendation for MRD (Minimal Residual Disease) testing?
+STATUS: NO_SIGNAL
+##########################################################################################
+EXCEL (existing answer lines):
+- No recommendation for MRD test
+
+EXCEL (existing references):
+(none)
+
+UPDATES (lines matched by keywords):
+(no relevant lines detected in UPDATES section by current keyword set)
+
+##########################################################################################
+6. — Is there any mention of the CTC (Circulating Tumor Cells) test?
+STATUS: NO_SIGNAL
+##########################################################################################
+EXCEL (existing answer lines):
+- No recommendation/mention of CTC
+
+EXCEL (existing references):
+(none)
+
+UPDATES (lines matched by keywords):
+(no relevant lines detected in UPDATES section by current keyword set)
+
+##########################################################################################
+7. — Is there any mention of the Chemosensitivity or Functional test?
+STATUS: NO_SIGNAL
+##########################################################################################
+EXCEL (existing answer lines):
+- No mention of chemosensitivity, resistance, or functional tests/assays.
+
+EXCEL (existing references):
+(none)
+
+UPDATES (lines matched by keywords):
+(no relevant lines detected in UPDATES section by current keyword set)

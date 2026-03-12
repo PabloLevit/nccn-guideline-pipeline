@@ -1,0 +1,102 @@
+Q 1.1.1
+--------------------
+YES
+- TP53 mutations in conjunction with MYC rearrangement are associated with worse prognosis ID3, TCF3, SMARCA4, CCND3 Mutations are more frequent in BL B2M, CREBBP, EZH2, MYD88 L265P, SOCS1, TNFRSF14Mutations favor other ag… (BCEL-A
+1)
+- 46 Relapsed/Refractory Disease Early treatment failure after induction t herapy (disease relapse and initiation of second- line therapy within 12 months after upfront autologous HCT) and progression of disease ( POD ) wi… (MS-93)
+- Genome- wide miRNA profiling of mantle cell lymphoma reveals a distinct subgroup with poor prognosis. (MS-99)
+- In the 2017 WHO classification, DLBCL with MYC and BCL2 and/or BCL6 rearrangements were included in a unique category called high- grade large B -cell lymphomas ( HGBL ) with MYC and BCL2 and/or BCL6 rearrangements .6 St… (MS-165)
+
+(BCEL-A
+1)
+(MS-93)
+(MS-99)
+(MS-165)
+
+Q 1.1.2
+--------------------
+- 46 Relapsed/Refractory Disease  
+  Early treatment failure after induction therapy (disease relapse and initiation of second-line therapy within 12 months after upfront autologous HCT) and progression of disease (POD) wi… (MS-93)
+
+Q 1.2
+--------------------
+- ADDITIONAL, DIAGNOSTIC, TESTING, ESSENTIAL, IHC, CD20, CD3, CD5, D1, CD10, CD21, CD23, BCL2, BCL6, SOX11, CD19, CD20, CD5, CD23, CD10, CD200, TP53, USEFUL, UNDER, CERTAIN, IHC, LEF1, CLL, SOX11, IGHV (MZL-A
+4)
+
+Q 1.3
+--------------------
+PDL1 -
+MSI -
+TMB -
+- Ibrutinib versus temsirolimus: 3-year follow-up of patients with previously treated mantle cell lymphoma from the phase 3, international, randomized, open-label RAY study. (MANT-A
+5)
+- Note: All recommendations are category 2A unless otherwise indicated.NCCN Guidelines Version 1.2026 Diffuse Large B-Cell LymphomaNCCN Guidelines Index Table of Contents Discussion BCEL-A 1 OF 3CLINICAL UTILITY OF GENOMIC ALTERATIONS IN DLBCLa GENE CLINICAL ASSOCIATION ACTB, BCL2,b BCL6, CARD11, CD79B, CREBBP, EZH2, KMT2D, MYC,c MYD88, MEF2B, SOCS1Diagnostic significance BTK, CARD11, CD79B, MYD88 Associated with non-GCB DLBCL NOTCH2 BN2 molecular subclassification EZH2, SMARCB1 Treatment significance (EZH2 inhibitors) PLCG2 Richter transformation; DLBCL arising from BTKi treated CLL/SLL TP53c Mutations are frequent in DLBCL associated with chronic inflammation; TP53 mutations in conjunction with MYC rearrangement are associated with worse prognosis ID3, TCF3, SMARCA4, CCND3 Mutations are more frequent in BL B2M, CREBBP, EZH2, MYD88 L265P, SOCS1, TNFRSF14Mutations favor other aggressive B-cell lymphoma subtypes other than BL KMT2D, TP53Mutations are more frequent in dark zone gene expression signature + LBCL with MYC and BCL2 or BCL6 rearrangements (double-hit lymphomas) JAK/STAT, MAPK/ERK, NOTCH1 or NOTCH2 Mutations are frequent in plasmablastic lymphoma MYD88, CD79B, PDL1, PDL2Mutations are frequent in intravascular LBCL, primary cutaneous DLBCL, leg type, primary LBCL of immune-privileged sites IL4R, ITPKB, NFKBIE, SOCS1, STAT6, XPO1 Mutations are characteristic of PMBL CD79B, CREBBP, KMT2D, MYD88, PIM1 Often mutated in DLBCL, NOS, but not altered in PMBL ATM, BIRC3, NSD2, UBR5 Mutations support the diagnosis of MCL a This table provides a minimal list of accepted genes that should be included in the MGPT lymphoma panel for DLBCL. (BCEL-A
+1)
+- m Principles of Radiation Therapy (NHODG-D) .RISK ASSESSMENT INDUCTION THERAPY INITIAL RESPONSE Low risk Normal LDH and Stage I (Single extra- abdominal mass <10 cm) or Completely resected abdominal lesion High risk Stage I and Abdominal mass or Extra-abdominal mass >10 cm or Stage II–IVClinical trial or See Suggested Regimensi (BURK-A ) Clinical trial or See Suggested Regimensi (BURK-A )Complete responsej < Complete responsejFollow-up: C/A/P CT scan with contrast no more often than every 6 mo for 1 y after completion of treatment, then only as clinically indicatedk Clinical triall or Palliative ISRTm < Complete responsejComplete responsejFollow-up: C/A/P CT scan with contrast no more often than every 6 mo for 1 y after completion of treatment, then only as clinically indicatedk Clinical triall or Palliative ISRTmBURK-3 Relapse or Consolidation in clinical trialRELAPSE BURK-3 RelapsePLEASE NOTE that use of this NCCN Content is governed by the End-User License Agreement, and you MAY NOT distribute this Content or use it with any artificial intelligence model or tool. (NHODG-B 4 of 5)
+- In a phase III randomized trial (RAY) that compared ibrutinib (n = 139) and temsirolimus (n = 141) in patients with relapsed or refractory MCL, the ORR was significantly higher for ibrutinib (77% vs. (MS-95)
+- 47% for temsirolimus; P < .0001). (MS-95)
+- NCCN Guidelines Version 1.2026 B-Cell Lymphomas MS-95 temsirolimus group. (MS-95)
+- Ibrutinib versus temsirolimus: 3-year follow -up of patients with previously treated mantle cell lymphoma from the phase 3, international, randomized, open -label RAY study. (MS-107)
+- 5,6 High programmed death- ligand (PDL1 and PDL2) expression has been reported as an independent prognostic factor for inferior survival outcomes.7 International prognostic index (IPI) and age- adjusted IPI are of limited value in determining the prognosis of PMBL at diagnosis.1,8,9 In a retrospective analysis of 141 patients, ≥2 extranodal sites and the type of initial therapy were predictors of outcome for event -free survival ( EFS) , whereas only the initial therapy was a predictor for OS.8 In a new prognostic index (based on the presence of extranodal involvement or stage IV disease, bulky disease and elevated lactate dehydrogenase [LDH]) defined high-risk subgroups better than IPI and age- adjusted IPI.10 In a multivariate analysis, extranodal involvement and elevated LDH (≥2 times upper limit of normal) were significantly associated with freedom from progression; whereas extranodal involvement and bulky disease were associated with lymphoma- specific survival. (MS-148)
+- High PDL1/PDL2 gene expression correlates with worse outcome in primary mediastinal large B -cell lymphoma. (MS-152)
+
+Q 2
+--------------------
+- (Also for MANT-3, MANT-4, MANT-5) 
+  - MANT-4 
+    - Classical TP53 wild type Stage II bulky noncontiguous; Stage III, IV 
+    - ◊ After aggressive induction therapy, CR revised by adding "uMRD6" and "dMRD6" 
+      - uMRD6 goes to "Rituximab maintenance ± covalent BTKi (MANT-A)" 
+      - dMRD6 goes to "Consider HDT/ASCR" then "Rituximab maintenance ± covalent BTKi (MANT-A)" 
+- Footnotes 
+  - Footnote n added: Determination of measurable residual disease (MRD) using a sensitive assay (with a limit of detection of at least 10-6 tumor cells) will stratify patients who do not benefit from HDT/SCR. [MZL-A 2 of 4]
+  - Patients achieving CR with undetectable MRD (uMRD; <10-6, uMRD6) should not receive HDT/ASCR. [MZL-A 2 of 4]
+  - Patients who have achieved a very good PR may be treated with additional therapy to achieve CR with dMRD6 (detectable MRD; >10-6) with the goal of proceeding to HDT/ASCR. [MZL-A 2 of 4]
+  - If end-of treatment PET is positive, consider repeat biopsy or if biopsy not feasible, consider circulating tumor DNA (ctDNA) for MRD (ctDNA-MRD) assessment (category 2B), using a test with a detection limit of <1 part per million, prior to additional therapy. [NHODG-C 3 of 3]
+  - Treatment was discontinued after 24 cycles for patients achieving CR with uMRD, suggesting that MRD-directed discontinuation of treatment may be an effective treatment approach for patients with TP53-mutated MCL. [MS-85]
+  - ctDNA assays have variable limits of detection (LOD) for MRD and the results of another trial demonstrated that an LOD of at least 1 in PLEASE NOTE that use of this NCCN Content is governed by the End-User License Agreement, and you MAY NOT distribute this Content or use it with any artificial intelligence model or tool. [MS-117]
+  - Based on the preliminary findings (discussed above), if a biopsy is not feasible, the guidelines recommend consideration of ctDNA assay (using a test with a detection limit of <1 part per million) for the detection of MRD prior to the initiation of additional therapy (category 2B). [MS-117]
+
+Q 3.1
+--------------------
+NO
+
+Q 3.2
+--------------------
+No biomarkers mentioned for RNA testing.
+
+Q 4
+--------------------
+No mention of CLIA-certified or CLIA-approved testing.
+
+Q 5
+--------------------
+- (Also for MANT-3, MANT-4, MANT-5) MANT-4
+  - Classical TP53 wild type
+  - Stage II bulky noncontiguous; Stage III, IV
+  - ◊After aggressive induction therapy, CR revised by adding "uMRD6" and "dMRD6"
+    - uMRD6 goes to "Rituximab maintenance ± covalent BTKi (MANT-A)"
+    - dMRD6 goes to "Consider HDT/ASCR" then "Rituximab maintenance ± covalent BTKi (MANT-A)"
+  - Footnotes
+    - Footnote n added: Determination of measurable residual disease (MRD) using a sensitive assay (with a limit of detection of at least 10-6 tumor cells) will stratify patients who do not benefit from HDT/SCR. (MZL-A 2 of 4)
+
+- Patients achieving CR with undetectable MRD (uMRD; <10-6, uMRD6) should not receive HDT/ASCR. (MZL-A 2 of 4)
+
+- Patients who have achieved a very good PR may be treated with additional therapy to achieve CR with dMRD6 (detectable MRD; >10-6) with the goal of proceeding to HDT/ASCR. (MZL-A 2 of 4)
+
+- If end-of treatment PET is positive, consider repeat biopsy or, if biopsy not feasible, consider circulating tumor DNA (ctDNA) for MRD (ctDNA-MRD) assessment (category 2B), using a test with a detection limit of <1 part per million, prior to additional therapy. (NHODG-C 3 of 3)
+
+- Treatment was discontinued after 24 cycles for patients achieving CR with uMRD, suggesting that MRD-directed discontinuation of treatment may be an effective treatment approach for patients with TP53-mutated MCL. (MS-85)
+
+- ctDNA assays have variable limits of detection (LOD) for MRD, and the results of another trial demonstrated that an LOD of at least 1 in. PLEASE NOTE that use of this NCCN Content is governed by the End-User License Agreement, and you MAY NOT distribute this Content or use it with any artificial intelligence model or tool. (MS-117)
+
+- Based on the preliminary findings (discussed above), if a biopsy is not feasible, the guidelines recommend consideration of ctDNA assay (using a test with a detection limit of <1 part per million) for the detection of MRD prior to the initiation of additional therapy (category 2B). (MS-117)
+
+Q 6
+--------------------
+No recommendation/mention of CTC.
+
+Q 7
+--------------------
+No mention of chemosensitivity, resistance, or functional tests/assays.
+

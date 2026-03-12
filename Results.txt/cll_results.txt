@@ -1,0 +1,81 @@
+1.1.1 Is there a recommendation for Tissue NGS?
+YES
+Note added to page: Sequencing therapy following CIT as first-line therapy (See CSLL-D 1 of 6 for suggested treatment regimens): Observation until relapse with
+→ cll / 
+For MRD-guided treatment, serial MRD evaluations using either flow cytometry (MRD flow) or NGS with a limit of detection (sensitivity) of at least 10-4 CLL cells in
+→ cll / 
+Either flow cytometry (MRD flow) or NGS are acceptable assays as long as the limit of detection (sensitivity) is achieved.
+→ cll / 
+biopsy specimen of transformed tissue to establish clonal relatedness between CLL/SLL and DLBCL cells (either using commercial NGS-based assay or lab-based
+→ cll / 
+TP53 sequencing
+→ cll / 
+MCL may be CD23+; cyclin D1 immunohistochemistry or FISH for t(11;14) should be considered in all cases, especially for those with an atypical immunophenotype
+→ cll / 
+Sequencing therapy following CIT as first-line therapy (See CSLL-D 1 of 6 for suggested treatment
+→ cll / 
+DNA sequencing
+→ cll / 
+used for the detection of MRD at the level of 10-4 to 10-5.f,g Next-generation sequencing (NGS)-based assays have been shown to be more
+→ cll / 
+CLL (ERIC) method or standardized NGS method.
+→ cll / 
+For MRD-guided treatment, serial MRD evaluations using either flow cytometry (MRD flow) or NGS with a limit of detection (sensitivity) of
+→ cll / 
+Either flow cytometry (MRD flow) or NGS are acceptable assays as long as the limit of detection (sensitivity) is achieved.
+→ cll / 
+there are increased prolymphocytes in the blood (>15%). Neither of these findings should be considered as Richter transformation, but rather as progression of CLL
+→ cll / 
+clonal relatedness between CLL/SLL and DLBCL cells (either using commercial NGS-based assay or lab-based assay for IGH clonality).
+→ cll / 
+relatedness between CLL/SLL and DLBCL cells (either using commercial NGS-
+→ cll / 
+CLL/SLL and DLBCL cells (either using commercial NGS-based assay or lab-based
+→ cll / 
+NGS
+→ cll / 
+next-generation sequencing
+→ cll / 
+next-generation sequencing (NGS)-based assay was reported to be more
+→ cll / 
+(FDA).84-87 NGS-based assays require collection of a pretreatment sample.
+→ cll / 
+months during active treatment (using either flow cytometry or NGS
+→ cll / 
+MRD-guided treatment options. NGS-based clonality testing for MRD
+→ cll / 
+CpG-stimulated metaphase karyotype, TP53 sequencing, and molecular
+→ cll / 
+strategy. NGS (using an assay with a sensitivity to detect TP53 mutations
+→ cll / 
+of low VAF of 5%) is preferred over Sanger sequencing for the TP53
+→ cll / 
+sequencing since the latter has a low detection limit that is variable
+→ cll / 
+reaction (PCR) and gene sequencing through Sanger sequencing.115,116
+→ cll / 
+NGS-based clonality testing for MRD assessment should be considered if
+→ cll / 
+NGS, next-generation sequencing; PS, performance status;
+→ cll / 
+MRD-flow; NGS
+→ cll / 
+NGS, next-generation sequencing; PS, performance status
+→ cll / 
+NGS;
+→ cll / 
+multiparameter flow cytometry and high-throughput sequencing for
+→ cll / 
+detected by immunoglobulin sequencing predicts CLL relapse more
+→ cll / 
+disease undetectable by next-generation sequencing predicts improved
+→ cll / 
+venetoclax resistance in CLL identified by whole-exome sequencing of
+→ cll / 
+
+1.1.2 For which disease stage(s) does the guideline recommend NGS or molecular testing?
+YES
+
+1.2 What are the key biomarkers?
+
+Biomarker Bucket	Biomarker	Disease Setting	Clinical Context	Tissue vs Blood	Testing Method	Citations	Version

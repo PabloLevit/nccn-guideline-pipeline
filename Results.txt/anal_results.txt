@@ -1,0 +1,61 @@
+Q 1.1.1
+--------------------
+YES
+- Molecular or genomic testing is utilized to assess hereditary risks related to treatment options. (ANAL-B
+4)
+- Next-generation sequencing is included as part of profiling to guide treatment decisions for anal carcinoma. (ANAL-B
+4)
+- Genomic assays may be applied to understand tumor characteristics for personalized therapy. (ANAL-B
+4)
+- Testing for specific genetic variants can inform choices in chemotherapy protocols. (ANAL-B
+4)
+
+ANAL-1
+ANAL-B 2 of 5
+Reference not found
+Reference not found
+
+Q 1.1.2
+--------------------
+No recommendation for NGS or molecular profiling.
+
+Q 1.2
+--------------------
+No biomarkers mentioned in the guideline
+
+Q 1.3
+--------------------
+PDL1 - The phase 2 KEYNOTE-028 trial investigated the use of pembrolizumab in individuals with programmed cell death ligand 1 (PD-L1)–positive advanced squamous cell carcinoma of the anal canal.
+
+MSI - MSI is uncommon in anal cancer, and therefore, MSI/mismatch repair (MMR) testing is not required.
+
+TMB - No mention of TMB.
+
+Q 2
+--------------------
+No mention of ctDNA or cfDNA.
+
+Q 3.1
+--------------------
+NO
+
+Q 3.2
+--------------------
+No biomarkers mentioned for RNA testing.
+
+Q 4
+--------------------
+No mention of CLIA-certified or CLIA-approved testing.
+
+Q 5
+--------------------
+No recommendation for MRD test
+
+Q 6
+--------------------
+No recommendation/mention of CTC
+
+Q 7
+--------------------
+No mention of chemosensitivity, resistance, or functional tests/assays.
+

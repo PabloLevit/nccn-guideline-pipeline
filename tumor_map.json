@@ -1,0 +1,27 @@
+
+{
+  "NSCLC": {
+    "nccn_title_contains": ["Non-Small Cell Lung Cancer", "NSCL"],
+    "category": "category_1"
+  },
+  "Multiple Myeloma": {
+    "nccn_title_contains": ["Multiple Myeloma"],
+    "category": "category_1"
+  },
+  "Merkel": {
+    "nccn_title_contains": ["Merkel Cell Carcinoma"],
+    "category": "category_1"
+  },
+  "Pleural Mesothelioma": {
+    "nccn_title_contains": ["Malignant Pleural Mesothelioma", "Pleural Mesothelioma"],
+    "category": "category_1"
+  },
+  "Peritoneal Mesothelioma": {
+    "nccn_title_contains": ["Peritoneal Mesothelioma"],
+    "category": "category_1"
+  },
+  "Myelodysplastic": {
+    "nccn_title_contains": ["Myelodysplastic Syndromes"],
+    "category": "category_1"
+  }
+}

@@ -1,0 +1,46 @@
+Q 1.1.1
+--------------------
+No recommendation for NGS or molecular profiling
+
+Q 1.1.2
+--------------------
+No recommendation for NGS or molecular profiling
+
+Q 1.2
+--------------------
+No biomarkers mentioned in the guideline
+
+Q 1.3
+--------------------
+PDL1 -
+MSI -
+TMB -
+
+Q 2
+--------------------
+No mention of ctDNA or cfDNA.
+
+Q 3.1
+--------------------
+NO
+
+Q 3.2
+--------------------
+No biomarkers mentioned for RNA testing.
+
+Q 4
+--------------------
+No mention of CLIA-certified or CLIA-approved testing.
+
+Q 5
+--------------------
+No recommendation for MRD test
+
+Q 6
+--------------------
+No recommendation/mention of CTC
+
+Q 7
+--------------------
+No mention of chemosensitivity, resistance, or functional tests/assays.
+

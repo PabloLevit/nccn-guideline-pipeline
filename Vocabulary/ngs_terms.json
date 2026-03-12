@@ -1,0 +1,15 @@
+{
+  "ngs_core": [
+    "next-generation sequencing",
+    "NGS",
+    "multigene panel testing",
+    "MGPT",
+    "comprehensive genomic profiling",
+    "broad molecular profiling",
+    "validated genomic assay"
+  ],
+  "negative": [
+    "no recommendation for molecular testing",
+    "testing is not recommended"
+  ]
+}

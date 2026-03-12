@@ -1,0 +1,116 @@
+Document: C:\Users\PABLO\OneDrive\Documentos\CANCER HOPE ASSIGNMENT\FINE - TUNING MODEL\projectsopenai - tests\PDF Guidelines\gastric.pdf
+Model: gpt-4o-mini
+Timestamp: 2026-02-02T09:44:28.924100
+--------------------------------------------------------------------------------
+
+Q 1.1.1
+--------------------
+**YES**
+
+- Guide systemic therapy choice for advanced or metastatic disease (GAST-B 3 of 7)
+- Identify molecular targets for treatment (GAST-B 3 of 7)
+- Perform comprehensive genomic profiling to enhance treatment decisions (GAST-B 4 of 7)
+- Utilize validated genomic assays to assess tumor characteristics (GAST-B 6 of 7)
+
+GAST-B 3 of 7  
+GAST-B 4 of 7  
+GAST-B 6 of 7
+
+Q 1.1.2
+--------------------
+No recommendation for NGS or molecular profiling
+
+Q 1.2
+--------------------
+- **HER2 (ERBB2) amplification**
+  - **Subtype/Disease Setting**: Advanced/metastatic gastric adenocarcinoma
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Preferred
+  - **Clinical Context**: First-line therapy
+  - **Section Reference**: GAST-B 3 of 7
+
+- **BRAF V600E mutation**
+  - **Subtype/Disease Setting**: Gastric cancer
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Useful in certain circumstances
+  - **Clinical Context**: Subsequent-line therapy
+  - **Section Reference**: GAST-B 1 of 7
+
+- **Microsatellite Instability (MSI) testing**
+  - **Subtype/Disease Setting**: All newly diagnosed gastric cancer patients
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Preferred
+  - **Clinical Context**: Universal testing in newly diagnosed
+  - **Section Reference**: GAST-B 5 of 7
+
+- **NTRK 1/2/3 gene fusions**
+  - **Subtype/Disease Setting**: Advanced/metastatic gastric adenocarcinoma
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Useful in certain circumstances
+  - **Clinical Context**: Subsequent-line therapy
+  - **Section Reference**: GAST-B 1 of 7
+
+- **RET gene fusion**
+  - **Subtype/Disease Setting**: Gastric cancer
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Useful in certain circumstances
+  - **Clinical Context**: Subsequent-line therapy
+  - **Section Reference**: GAST-B 1 of 7
+
+- **PD-L1 expression testing**
+  - **Subtype/Disease Setting**: All newly diagnosed gastric cancer patients
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Preferred
+  - **Clinical Context**: Universal testing in newly diagnosed
+  - **Section Reference**: GAST-B 5 of 7
+
+- **Claudin 18.2 (CLDN18.2) expression**
+  - **Subtype/Disease Setting**: Untreated advanced/metastatic gastric adenocarcinoma
+  - **NCCN Category of Evidence**: Category 2A
+  - **NCCN Category of Preference**: Useful in certain circumstances
+  - **Clinical Context**: First-line therapy consideration
+  - **Section Reference**: GAST-B 1 of 7
+
+No biomarkers mentioned in the guideline.
+
+Q 1.3
+--------------------
+PDL1 - Universal testing for PD-L1 by IHC should be performed for all newly diagnosed patients with gastric cancer who are candidates for treatment with PD-1 or PD-L1 inhibitors.
+
+MSI - Universal testing for microsatellite instability (MSI) by polymerase chain reaction (PCR) or next-generation sequencing (NGS) or mismatch repair (MMR) by immunohistochemistry (IHC) is recommended in all newly diagnosed patients.
+
+TMB - No mention of TMB test.
+
+Q 2
+--------------------
+YES
+- The genomic alterations of solid cancers may be identified by evaluating circulating tumor DNA (ctDNA) in the blood, hence a form of “liquid biopsy.” 
+- The detection of mutations/alterations or gene fusions in DNA shed from gastric carcinomas can identify targetable alterations or the evolution of clones with altered treatment response profiles. 
+- When limited tissue is available or for patients who have metastatic or advanced gastric cancer who are not able to undergo a traditional biopsy, multigene panel testing (MGPT) performed in a CLIA-approved laboratory may be considered. 
+- A negative result should be interpreted with caution, as this does not exclude the presence of tumor.
+Reference not found
+
+Q 3.1
+--------------------
+NO
+
+Q 3.2
+--------------------
+No biomarkers mentioned for RNA testing.
+
+Q 4
+--------------------
+A companion diagnostic test should be used on FFPE tissue as an aid in identifying patients for treatment with PD-1/PD-L1 inhibitors; PD-L1 testing should be performed only in CLIA-approved laboratories.
+
+Q 5
+--------------------
+No recommendation for MRD test
+
+Q 6
+--------------------
+No recommendation/mention of CTC
+
+Q 7
+--------------------
+No mention of chemosensitivity, resistance, or functional tests/assays.
+
