@@ -1,0 +1,621 @@
+{
+  "name": "NCCN - Daily Runer",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$node[\"SET ANALYSIS CONFIG\"].json.base_url}}/check-updates",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        672,
+        0
+      ],
+      "id": "a9556dff-802f-4caa-8cbd-ec72c46d002a",
+      "name": "CHECK NCCN UPDATES"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{$node[\"SET ANALYSIS CONFIG\"].json.base_url}}/run-nccn",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "pdf",
+              "value": "gastric.pdf"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        1088,
+        -64
+      ],
+      "id": "25b91ac3-9bd5-47cb-915e-d3e3360334b4",
+      "name": "RUN ANALYSIS OF NCCN"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "5da5e2a9-d755-4269-9c8c-8e6fbda34e19",
+              "leftValue": "1",
+              "rightValue": "1",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        864,
+        0
+      ],
+      "id": "7f7b10b7-92c8-4cf1-a052-235b3c167682",
+      "name": "NCCN UPDATES FOUND?"
+    },
+    {
+      "parameters": {
+        "amount": 2
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        1296,
+        -64
+      ],
+      "id": "cb6a07c0-50ef-42a4-bffb-e4dff65416b8",
+      "name": "WAIT FOR ANALYSIS START",
+      "webhookId": "33d6e259-844f-4d1f-a70c-53972edac07f"
+    },
+    {
+      "parameters": {
+        "url": "={{$node[\"SET ANALYSIS CONFIG\"].json.base_url}}/jobs/{{$node[\"RUN ANALYSIS OF NCCN\"].json.job_id}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        1712,
+        -64
+      ],
+      "id": "17561abd-bf11-453c-8f84-678f4eaab646",
+      "name": "CHECK ANALYSIS STATUS"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "d852029a-f18a-4f38-9199-3946085403ac",
+              "leftValue": "={{$json.status}}",
+              "rightValue": "DONE",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2288,
+        16
+      ],
+      "id": "4e7732ef-eef6-435e-a8a7-70ca6e21b631",
+      "name": "ANALYSIS COMPLETED?"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        2496,
+        112
+      ],
+      "id": "d5fb5cae-f080-4de3-b169-224538cd9379",
+      "name": "WAIT BEFORE NEXT STATUS CHECK",
+      "webhookId": "4c687e73-cc29-43ce-a79d-07e17628e2e2"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "24d89b6e-7896-4e76-a589-24f4f445fc98",
+              "leftValue": "={{$json.status}}",
+              "rightValue": "ERROR",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2080,
+        16
+      ],
+      "id": "1c896b0e-df58-45c0-a84a-271d83e764ff",
+      "name": "ANALYSIS FAILED?"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "c30dc80f-3fc9-437e-8e9c-f20743a60792",
+              "name": "attempt",
+              "value": "={{ Number($json.attempt || $node[\"START RETRY NUMBER\"].json.attempt || 0) }}",
+              "type": "number"
+            }
+          ]
+        },
+        "includeOtherFields": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1920,
+        -48
+      ],
+      "id": "a94c7b9e-d91f-4310-a17a-e9f8848ec9ee",
+      "name": "ENSURE RETRY NUMBER"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "229f7798-88bf-4a88-b7eb-ef238b8998b6",
+              "name": "attempt",
+              "value": "={{$json.attempt + 1}}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2704,
+        112
+      ],
+      "id": "5f9d26d7-1b6f-408b-b746-06a4789a281e",
+      "name": "INCREASE RETRY NUMBER"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "cfe10d33-12fd-4a7c-971d-00433d2dffc3",
+              "leftValue": "={{$json.attempt}}",
+              "rightValue": 60,
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        2912,
+        112
+      ],
+      "id": "e5266473-c830-4a6c-92cb-6a00c8fcd49f",
+      "name": "MAX RETRIES REACHED?"
+    },
+    {
+      "parameters": {
+        "url": "={{$node[\"SET ANALYSIS CONFIG\"].json.base_url}}/jobs/{{$node[\"RUN ANALYSIS OF NCCN\"].json.job_id}}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        3104,
+        112
+      ],
+      "id": "cf3eeb6d-d412-49ce-a96d-766f61f397fc",
+      "name": "CHECK ANALYSIS STATUS – LOOP"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "7ec0ad8b-4fe8-40fb-ae35-763ee2f18448",
+              "name": "base_url",
+              "value": "https://deposits-commercial-kruger-operated.trycloudflare.com ",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        448,
+        0
+      ],
+      "id": "d287827d-7991-4bb8-bfe1-c062dd3b5047",
+      "name": "SET ANALYSIS CONFIG"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "a8b0ceea-6a16-477c-acc9-84494d924b91",
+              "name": "attempt",
+              "value": 0,
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1504,
+        -64
+      ],
+      "id": "25ce28c7-913d-4f0e-a0a1-265a8bef2a29",
+      "name": "START RETRY NUMBER"
+    },
+    {
+      "parameters": {
+        "content": "Daily NCCN tracker email is generated outside n8n via Task Scheduler + nccn_tracker.py",
+        "height": 96,
+        "width": 224
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        -240,
+        -128
+      ],
+      "id": "f70fcc17-56c9-466f-8132-ecdbd08d7075",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyHour",
+              "minute": 15
+            }
+          ]
+        },
+        "filters": {
+          "q": "subject:\"NCCN Tracker\" in:inbox"
+        }
+      },
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -176,
+        16
+      ],
+      "id": "5f8d012d-9bfc-4ea2-a95d-a67d32b76e15",
+      "name": "Gmail Trigger",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "6jcYhQvN8vFiK2vi",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "6e45b6a3-627e-45ce-9cc2-ebaded171db2",
+              "leftValue": "",
+              "rightValue": "",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        64,
+        16
+      ],
+      "id": "3389c7c4-79a1-4788-8e49-344c82a902de",
+      "name": "Status: Updates detected?"
+    },
+    {
+      "parameters": {
+        "jsCode": "const snippet = $json.snippet || \"\";\n\nconst text = snippet\n  .replace(/\\s+/g, \" \")\n  .replace(/[–—]/g, \"—\")\n  .replace(/^.*?Updates detected\\s+/i, \"\")\n  .replace(/\\s+Automated NCCN Category 1 monitoring\\.$/i, \"\")\n  .trim();\n\nconst regex = /([A-Z][A-Za-z0-9/&(),\\-\\s]+?)\\s+—\\s+(\\d+\\.\\d+)\\s*→\\s*(\\d+\\.\\d+)/g;\n\nconst updates = [];\nlet match;\n\nwhile ((match = regex.exec(text)) !== null) {\n  updates.push({\n    guideline_name: match[1].trim(),\n    previous_version: match[2].trim(),\n    new_version: match[3].trim(),\n  });\n}\n\nreturn updates.map(u => ({ json: u }));"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        272,
+        0
+      ],
+      "id": "0a7aca5b-ad6c-49af-af0c-908281eb610b",
+      "name": "PARSE UPDATED GUIDELINES"
+    }
+  ],
+  "connections": {
+    "CHECK NCCN UPDATES": {
+      "main": [
+        [
+          {
+            "node": "NCCN UPDATES FOUND?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "RUN ANALYSIS OF NCCN": {
+      "main": [
+        [
+          {
+            "node": "WAIT FOR ANALYSIS START",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "NCCN UPDATES FOUND?": {
+      "main": [
+        [
+          {
+            "node": "RUN ANALYSIS OF NCCN",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        []
+      ]
+    },
+    "WAIT FOR ANALYSIS START": {
+      "main": [
+        [
+          {
+            "node": "START RETRY NUMBER",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "CHECK ANALYSIS STATUS": {
+      "main": [
+        [
+          {
+            "node": "ENSURE RETRY NUMBER",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ANALYSIS COMPLETED?": {
+      "main": [
+        [],
+        [
+          {
+            "node": "WAIT BEFORE NEXT STATUS CHECK",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "WAIT BEFORE NEXT STATUS CHECK": {
+      "main": [
+        [
+          {
+            "node": "INCREASE RETRY NUMBER",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ANALYSIS FAILED?": {
+      "main": [
+        [],
+        [
+          {
+            "node": "ANALYSIS COMPLETED?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ENSURE RETRY NUMBER": {
+      "main": [
+        [
+          {
+            "node": "ANALYSIS FAILED?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "INCREASE RETRY NUMBER": {
+      "main": [
+        [
+          {
+            "node": "MAX RETRIES REACHED?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MAX RETRIES REACHED?": {
+      "main": [
+        [
+          {
+            "node": "CHECK ANALYSIS STATUS – LOOP",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "CHECK ANALYSIS STATUS – LOOP": {
+      "main": [
+        [
+          {
+            "node": "ANALYSIS FAILED?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SET ANALYSIS CONFIG": {
+      "main": [
+        [
+          {
+            "node": "CHECK NCCN UPDATES",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "START RETRY NUMBER": {
+      "main": [
+        [
+          {
+            "node": "CHECK ANALYSIS STATUS",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail Trigger": {
+      "main": [
+        [
+          {
+            "node": "Status: Updates detected?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Status: Updates detected?": {
+      "main": [
+        [
+          {
+            "node": "PARSE UPDATED GUIDELINES",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PARSE UPDATED GUIDELINES": {
+      "main": [
+        [
+          {
+            "node": "SET ANALYSIS CONFIG",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "pinData": {},
+  "triggerCount": 0,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  }
+}
