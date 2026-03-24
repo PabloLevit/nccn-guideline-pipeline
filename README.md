@@ -31,6 +31,55 @@ This repository contains the core logic to:
 - generate structured outputs
 
 -------------------------
+## How to Run
+
+1. Install dependencies:
+pip install -r requirements.txt
+
+2. Run the NCCN tracker:
+python nccn_tracker.py
+
+3. Run the analysis module (example):
+python analyze_doc.py
+
+---
+
+## Orchestration (n8n)
+
+The orchestration layer is implemented externally using n8n and is not included in this repository.
+
+It is responsible for:
+
+- listening to tracker email notifications  
+- parsing which NCCN guidelines were updated  
+- deciding whether to trigger analysis  
+- managing execution flow and retries  
+- monitoring job status  
+- logging results  
+- sending notifications to the team  
+
+---
+
+## Example Output
+
+The system is designed to generate structured summaries of NCCN guideline updates, including:
+
+- changes in biomarker recommendations  
+- updates in NGS / molecular profiling guidance  
+- modifications in targeted therapies or immunotherapy  
+- staging updates  
+- newly introduced or removed clinical recommendations  
+
+These outputs can be formatted as:
+
+- structured summaries (text)  
+- JSON objects  
+- Excel tables  
+- or integrated into a centralized knowledge base  
+
+(Example outputs will be added in future versions.)
+
+--------------------------------------
 
 ## Repository Structure
 
