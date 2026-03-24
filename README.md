@@ -6,6 +6,14 @@ This project aims to automate the detection, analysis, and distribution of updat
 
 The goal is to transform a manual, reactive process into an automated and scalable system that provides timely and structured insights.
 
+## Configuration  'IMPORTANT'
+
+This project requires environment-specific configuration (e.g., email credentials).
+
+For security reasons, sensitive files such as `secrets.json` are not included in this repository.
+
+To run the tracker, you will need to create your own configuration file with the required credentials.
+
 ## System Architecture
 
 The pipeline is composed of three layers:
